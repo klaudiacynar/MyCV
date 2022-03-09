@@ -1,20 +1,28 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap);
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:  'Ubuntu', sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+h1 {
+	font-family: 'Kanit', sans-serif;
+}
+
 .resume-header {
-    background-color: #2EB086;
+    background-color: #19647e;
+}
+
+.top {
+	color: #fffefc;
 }
 
 .resume-main {
@@ -22,7 +30,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #86C6F4;
+	background-color: #a7cced;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +44,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EA71D4;
+	color: #40F9FF;
 }
 
 .biography-details li, .skill-list li {
@@ -49,3 +57,4 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
+
