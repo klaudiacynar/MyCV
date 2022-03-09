@@ -1,7 +1,7 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Amatic+SC&family=Ubuntu:wght@300&display=swap);
 
 /* Styles for the body */
 
@@ -14,11 +14,12 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 h1 {
-	font-family: 'Kanit', sans-serif;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
 }
 
 .resume-header {
-    background-color: #19647e;
+    background-color: #84a59d;
 }
 
 .top {
@@ -30,7 +31,7 @@ h1 {
 }
 
 .resume-aside {
-	background-color: #a7cced;
+	background-color: #f7ede2;
 }
 
 /* Styles for lists in the document */
@@ -44,7 +45,7 @@ h1 {
 }
 
 .biography-details li::before {
-	color: #40F9FF;
+	color: #f28482;
 }
 
 .biography-details li, .skill-list li {
@@ -56,5 +57,10 @@ h1 {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.language-progress {
+
+	background-color: #f5cac3;
 }
 
